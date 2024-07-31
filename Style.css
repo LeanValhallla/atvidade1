@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: "Cairo" sans-serif;
+    box-sizing: border-box;
+    border: solid 1px;
+}
+
+header {
+     height: 40px;
+     background-color: lightgrey;
+     column-count: 5;
+     padding-left:7%;
+}
+
+#main {
+    display: grid;
+grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1.3fr;
+grid-template-rows: 80px 80px 431px 263px;
+}
+
+#main>div { border: solid 1px;}
+
+#logo {grid-column: 2;}
+
+#nav{
+    grid-column: 3/6;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{grid-column: 2;
+grid-row: 2/4;
+background: #7fad39;
+padding: 10px 25px 10px 40px;
+
+}
+
+#buscar{grid-column: 3/6;
+        grid-row: 2;
+        display: flex;
+        width: 30%;
+        float: left;
+        color: black;
+        padding-left: 14px;
+        font-weight: 700;
+        
+    }
+
+#banner{grid-column: 3/6;
+grid-row: 3;
+
+
+
+
+
+
+}
+
+#prod01{grid-column: 2;
+grid-row: 4;
+background-image: }
+
+#prod02{grid-column: 3;
+grid-row: 4;}
+
+#prod03{grid-row: 4;
+grid-column: 4;}
+
+#prod04{grid-row: 4;
+grid-column: 5;}
+
+.Email{
+  position: relative;
+  
+
+}
+
+.Verde{
+    position: relative;
+    padding: 10px 25px 10px 40px;
+    cursor: pointer;
+    background: #7fad39;
+}
+
+.AS{
+color: #7fad39;
+}
+
+
+#inicio{
+    width: fit-content;
+    
+  padding-left:30%;
+}
+
+#icones{
+    text-align: center;
+}
+
+#EUA{
+    padding-left: 10%;
+}
+
+.Segundo{
+    text-align: center;
+    margin-bottom: 50%;
+    padding-right: 10%;
+    }
+
+.Acima{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.Ceta{
+    right: 14px;
+    top: 14px;
+    position: absolute;
+}
